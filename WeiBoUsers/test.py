@@ -172,6 +172,7 @@ def get_user_info(uid):
 def save_info(data):
     conn = pymongo.MongoClient(host="127.0.0.1", port=27017)
     db = conn["Spider"]
+    print('save to mongodb: ', data)
     db.WeiBoUsers.insert(data)
 
 
