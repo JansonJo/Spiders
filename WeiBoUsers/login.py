@@ -339,12 +339,8 @@ class WeiBoLogin:
 
 
 if __name__ == '__main__':
-    # user_name = '18750103605'
-    # pass_word = 'jayson.0201'
-    user_name = 'info@itocases.com'
-    pass_word = 'yditocases881'
+    user_name = 'xxx'
+    pass_word = 'xxx'
     wb = WeiBoLogin(user_name, pass_word)
     wb.login()
-    wb.get_main_page('https://weibo.com/p/1006063610794337/home?from=page_100606&mod=TAB&is_all=1#place')
-    # wb.get_main_page('https://weibo.com/jansonzhuo/profile?rightmod=1&wvr=6&mod=personinfo&ajaxpagelet=1&ajaxpagelet_v6=1&__ref=%2Fjansonzhuo%2Fhome%3Fwvr%3D5%26lf%3Dreg&_t=FM_157197991830521')
-    # wb.get_main_page('https://weibo.com/p/1006063610794337/home?from=page_100606&mod=TAB&is_all=1#place')
+    wb.get_main_page('xxx')
